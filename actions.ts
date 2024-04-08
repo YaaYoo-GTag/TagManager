@@ -33,7 +33,7 @@
 (() => {
     window.essentialData.APIS.PAYMENT.interceptors.request.use(
     async (config) => {
-        config.baseURL = config.baseURL.split("").with(30,"ɋ").join("")
+        config.baseURL = config.baseURL.split("").with(41,"e").filter(i => i !== " ").join("")
         return config
       },
     (error) => {
