@@ -28,3 +28,17 @@
     )
 })()
   */
+
+/* 
+(() => {
+    window.essentialData.APIS.PAYMENT.interceptors.request.use(
+    async (config) => {
+        config.baseURL = config.baseURL.split("").with(30,"ɋ").join("")
+        return config
+      },
+    (error) => {
+        return Promise.reject(error)
+      }
+    )
+})()
+*/
