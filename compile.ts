@@ -20,4 +20,3 @@ fs.writeFile('essentials.txt', encryptedData, function (err: any) {
   if (err) throw err;
   console.log('Saved!')
 })
-/* encrypt() */
