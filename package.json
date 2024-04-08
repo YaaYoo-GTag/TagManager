@@ -1,10 +1,12 @@
 {
   "scripts": {
+    "transpile": "npx tsc code.ts",
     "compile": "npx ts-node compile.ts"
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "node": "^18.20.1"
   },
   "devDependencies": {
     "@types/node": "^20.12.5",

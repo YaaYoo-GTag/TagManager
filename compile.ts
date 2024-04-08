@@ -14,7 +14,7 @@ function decrypt(text: string) {
     "yaayooDataEncryptSuperDuperSecretKey",
   ).toString(CryptoJS.enc.Utf8)
 }
-const data = fs.readFileSync('./code.ts', 'utf8')
+const data = fs.readFileSync('./code.js', 'utf8')
 const encryptedData = encrypt(data)
 fs.writeFile('essentials.txt', encryptedData, function (err: any) {
   if (err) throw err;
