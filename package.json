@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "compile": "npx ts-node compile.ts"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  }
+}
